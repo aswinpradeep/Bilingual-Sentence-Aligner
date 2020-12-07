@@ -9,7 +9,7 @@ To install necessary packages for the script, run:
 
 To view script usage help from terminal, run:
 
-    python3 exec_[scriptname].py -h
+    python3 [scriptname].py -h
 
 ### exec_alignfiles.py
 
