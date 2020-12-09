@@ -67,6 +67,6 @@ with open(input_path2, encoding=enctype) as f2:
 model.match(lst1, lst2)
 dfx = model.get_matches()
 dfx.columns = ['COLUMN-1', 'COLUMN-2', 'SIMILARITY']
-dfx.sort_values(by='SIMILARITY', ascending=False)
+dfx = dfx.sort_values(by='SIMILARITY', ascending=False)
 dfx.to_csv(output_path,index=None)
 print("Execution completed in :",datetime.now() - startTime)
