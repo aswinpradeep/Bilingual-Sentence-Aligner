@@ -1,5 +1,5 @@
 ############################################################################################################
-# AIM     : Script to matching sentence pairs provided in two different TXT files
+# AIM     : Script to match sentence pairs provided in two different TXT files
 # USAGE   : python3 bilingual_sentence_aligner.py -i1 "input1.txt" -i2 "input2.txt" -e "utf-8" -o "out.csv"
 ############################################################################################################
 
