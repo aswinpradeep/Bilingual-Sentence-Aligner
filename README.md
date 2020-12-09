@@ -1,6 +1,6 @@
 # Bilingual-Sentence-Aligner
 
-The code in this repo could be utilized to find matching sentence pairs btween to TXT files, by making use of Google's recent LaBSE model.
+The code in this repo could be utilized to find matching sentence pairs between two TXT files, by making use of Google's recent LaBSE model.
 This is a simplified implementation of the same using PolyFuzz library.
 
 To install necessary packages for the script, run:
@@ -20,7 +20,7 @@ To initiate the process:
 
     python3 bilingual_sentence_aligner.py -i1 "input1.txt" -i2 "input2.txt" -e "utf-8" -o "out.csv"
 
-NOTE : The Two text files are expected to have tokenized sentences for pairing.
+NOTE: The Two text files are expected to have tokenized sentences for pairing.
 
 The output will be a CSV file with 3 columns:
 
