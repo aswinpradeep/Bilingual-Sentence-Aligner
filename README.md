@@ -27,3 +27,9 @@ The output will be a CSV file with 3 columns:
 * COLUMN-1 : Sentence from TXT file 1
 * COLUMN-2 : Matching Sentence from TXT file2 corresponding to COLUMN-1
 * COLUMN-3 : Similarity between COLUMN-1 & COLUMN-2
+
+### faiss_aligner.ipynb
+
+Notebook contains faiss based sentence aligner example. This approach could be utilized to align lakhs of sentences in minimal time.
+
+Detailed article [here](https://www.linkedin.com/pulse/building-scalable-multilingual-sentence-alignment-pipeline-pradeep/)
